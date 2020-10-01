@@ -1,0 +1,187 @@
+body{
+    background-color: #708D91;
+}
+.titre{
+    display: flex;
+    justify-content: center;
+}
+.noms{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 2%;
+
+}
+.nom-joueur{
+    background-color: #19DD89;
+    box-shadow:10px 5px 5px #D31996;
+    box-shadow: -10px 5px 5px blueviolet;
+    width: 350px;
+    height: 50px;
+    border: #D31996 solid 3px;
+    display: flex;
+justify-content: center ;
+
+}
+p{
+    text-align: center;
+
+}
+.nom-IA{
+    background-color: #19DD89;
+    box-shadow:10px 5px 5px #D31996;
+    box-shadow: -10px 5px 5px blueviolet;
+    width: 350px;
+    height: 50px;
+    border: #D31996 solid 3px;
+    display: flex;
+justify-content: center ;
+
+}
+.round{
+    display: flex;
+    justify-content: center;
+}
+.vs{
+    display: flex;
+    justify-content: center;
+}
+.points{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    width: auto;
+    height: auto;
+
+}
+.points-Joueur{
+    padding: 1%;
+    background-color: #19DD89;
+    box-shadow:10px 5px 5px #D31996;
+    box-shadow: -10px 5px 5px blueviolet;
+    display: flex;
+    flex-direction: row;   
+    width: auto;
+    height: auto;
+    border: #D31996 solid 3px;
+
+}
+.points-IA{
+    padding: 1%;
+    background-color: #19DD89;
+    box-shadow:10px 5px 5px #D31996;
+    box-shadow: -10px 5px 5px blueviolet;
+    display: flex;
+    flex-direction: row;   
+    width: auto;
+    height: auto;
+    border: #D31996 solid 3px;
+
+}
+.points-joueur-1{
+    background: #19DD89;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #D31996 solid 3px;
+
+}
+.points-joueur-2{
+    background: #19DD89;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #D31996 solid 3px;
+
+}
+.points-joueur-3{
+    background: #19DD89;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #D31996 solid 3px;
+
+}
+
+.points-IA-1{
+    background: #19DD89;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #D31996 solid 3px;
+
+}
+.points-IA-2{
+    background: #19DD89;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #D31996 solid 3px;
+
+}
+.points-IA-3{
+    background-color: #19DD89;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: #D31996 solid 3px;
+
+}
+.choix{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+.choix-utilisateur{
+    background-color: #19DD89;
+    box-shadow: #D31996;
+    box-shadow: -10px 5px 5px blueviolet;    
+    width: 250px;
+    height: 250px;
+    border: #D31996 solid 3px;
+
+}
+.choix-IA{
+    background-color: #19DD89;
+    box-shadow:10px 5px 5px #D31996;
+    box-shadow: -10px 5px 5px blueviolet;
+    width: 250px;
+    height: 250px;
+    border: #D31996 solid 3px;
+}
+.choix-possible{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 2%;
+
+}
+.choix-1{
+    background-color:#19DD89;
+    box-shadow: -10px 5px 5px blueviolet;
+    box-shadow: #D31996;
+box-shadow: -10px 5px 5px blueviolet;    width: 250px;
+    height: 250px;
+    border: #D31996 solid 3px;
+}
+.choix-2{
+    background-color: #19DD89;
+    box-shadow:10px 5px 5px #D31996;
+    box-shadow: -10px 5px 5px blueviolet;
+    width: 250px;
+    height: 250px;
+    border: #D31996 solid 3px;
+}
+.choix-3{
+    background-color: #19DD89;
+    box-shadow:10px 5px 5px #D31996;
+    box-shadow: -10px 5px 5px blueviolet;
+    width: 250px;
+    height: 250px;
+    border: #D31996 solid 3px;
+}
+img{
+    height: 250px;
+    width: 250px;
+}

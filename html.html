@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+    <div class="titre">
+        <h1>SHIFUMIx</h1>
+    </div>
+    <div class="points">
+        <div class="points-Joueur">
+            <div class="points-joueur-1" id="points-J-1" ></div>
+            <div class="points-joueur-2" id="points-J-2"></div>
+            <div class="points-joueur-3" id="points-J-3"></div>
+        </div>
+        <div class="points-IA">
+            <div class="points-IA-1" id="points-IA-1"></div>
+            <div class="points-IA-2" id="points-IA-2"></div>
+            <div class="points-IA-3" id="points-IA-3"></div>
+        </div>
+    </div>
+
+    <div class="noms">
+        <div class="nom-joueur">
+            <p id="nom" onclick="modifnom()">Joueur-1</p>
+        </div>
+        <div class="nom-IA">
+            <p id="nom">Joueur-IA</p>
+
+        </div>
+    </div>
+    <div class="round">
+        <p>Round</p><p id="increm">0</p>
+    </div>
+    <div class="vs">
+
+    </div>
+    <div class="choix">
+        <div class="choix-utilisateur">
+            <img  src="https://zupimages.net/up/20/40/xggt.png" id="joueur-C">
+        </div>
+        <div class="choix-IA">
+            <img  src="https://zupimages.net/up/20/40/8mw4.png" id="IA-C">
+        </div>
+    </div>
+
+    <div class="choix-possible">
+        <div class="choix-1">
+                <img onclick="modifimg('pierre');modifIA();ajout();joueurWin();joueurLose()" src="https://zupimages.net/up/20/40/xggt.png" alt="" />
+        </div>
+        <div  class="choix-2">
+                <img onclick="modifimg('feuille');modifIA();ajout();joueurWin();joueurLose()" src="https://zupimages.net/up/20/40/8mw4.png" alt="" />
+        </div>
+        <div class="choix-3">
+                <img onclick="modifimg('ciseaux');modifIA();ajout();joueurWin();joueurLose()" src="https://zupimages.net/up/20/40/us30.png" alt="" />
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
